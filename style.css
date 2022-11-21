@@ -1,0 +1,248 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.hero {
+    width: 100%;
+    height: 110vh;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/fotoprofil.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 10% 0 5%;
+}
+.logo {
+    color:#fafafa ;
+    font-size: 20px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span {
+    color:#cc9c53 ;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    color: #cc9c53;
+    transition: 1s;
+}
+.content {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    margin-right: 100px;
+    font-size: large;
+}
+#about {
+    width: 100%;
+    padding: 100px 0px;
+    background-color:#47403f;
+}
+#about img {
+    height: auto;
+    width: 300px;
+}
+.about-text {
+    width: 550px;
+    max-width: 95%;
+}
+.main {
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2 {
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 50px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text h5 {
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p {
+    color: #E6E6E6;
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.section {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.section-small {
+    max-width: 490px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.section-header {
+    color: #ccc;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+hr {
+    width: 60%;
+    border: 0.5px solid #ccc;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+    padding-bottom: 20px;
+}
+
+th {
+    color: #444444;
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+td {
+    text-align: center;
+    padding: 10px 15px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+tr:nth-child(odd) {
+    background-color: #cc9c53;
+}
+
+tr.tr-header {
+    background-color: #f39c18;
+    height: 50px;
+}
+#portofolio {
+    background:#685f5d;
+    width: 100%;
+    font-size: 30px;
+    padding: 100px 0;
+}
+.title h2 {
+    color: #fff;
+    font-size: 50px;
+    width: 1130px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: 90px;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card {
+    height: 365px;
+    width: 355px;
+    padding: 10px 25px;
+    background: #47403f;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    text-align: center;
+}
+h5 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.pra {
+    font-size: 20px;
+}
+.pra p{
+    color: #cc9c53;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.pra img {
+
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 2px;
+    margin-right: 10px;
+}
+.card .button {
+    background-color: #cc9c53;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+}
+.card .button:hover {
+    background-color: #685f5d;
+    transition: 0.7s;
+}
+#contact {
+    background: #47403f;
+    text-decoration: none;
+} 
+a {
+    color: white;
+}
+a:hover {
+ color: #f39c18;
+ transition: 0.7s;
+}
+.address {
+    background-color: #685f5d;
+}
+
+footer {
+    background-color: #cc9c53;
+    padding-top: 30px;
+}
+
+h6 {
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 15px;
+    
+}
+
+@media screen {
+    
+}
